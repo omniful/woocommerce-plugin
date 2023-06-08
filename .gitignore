@@ -1,0 +1,26 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# gatsby files
+.cache/
+
+# Public
+public/~partytown
+public/page-data/
+public/static
+public/*.js
+public/*.map
+public/*.css
+public/*.json
+public/*.html
+!public/*.ico
+
+# Mac files
+.DS_Store

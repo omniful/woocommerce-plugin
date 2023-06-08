@@ -1,0 +1,27 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./scripts/build-prod.js",
+    "build:dev": "node ./scripts/build-dev.js",
+    "watch": "nodemon --watch src --ext '*' --exec 'yarn build:dev && mv ../view/assets/js/*.css ../view/assets/css && mv ../view/assets/js/*.css.map ../view/assets/css'"
+  },
+  "dependencies": {
+    "@shopify/polaris": "^10.40.0",
+    "esbuild": "^0.17.15",
+    "intercom-client": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-use-intercom": "^5.0.0",
+    "redaxios": "^0.5.1",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "esbuild-plugin-eslint": "^0.1.1",
+    "eslint": "^8.34.0",
+    "eslint-plugin-react": "^7.32.2",
+    "nodemon": "^2.0.21"
+  }
+}

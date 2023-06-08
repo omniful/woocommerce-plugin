@@ -1,0 +1,12 @@
+.Polaris-Frame__ContextualSaveBar {
+  bottom: 0 !important;
+  top: unset !important;
+}
+
+.Polaris-Banner.Polaris-Banner--statusWarning.Polaris-Banner--withinPage {
+  margin: var(--p-space-8) 0 var(--p-space-8) 0;
+}
+
+.Polaris-ButtonGroup__Item {
+  margin-top: var(--p-space-3) !important;
+}
